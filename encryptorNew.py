@@ -12,7 +12,6 @@ newIndex = 0
 for k in key:
     keyIndex.append(abc.index(k))
 
-
 chooseUse = int(input('Enter 1 for encryption or 2 for  decryption: '))
 if chooseUse == 1:
     while not goodInput:
